@@ -13,3 +13,13 @@ else
 end
 
 puts "You earned a #{grade}"
+
+hungry = false
+unless hungry
+    puts "write code"
+else
+    puts "eat something"
+end
+
+puts "Winter" if true
+puts "Write code" unless hungry
